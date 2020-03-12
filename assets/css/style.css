@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+/* The css seems to be in the order things appear on the page, not grouped by divs, as I would expect. */
 
 body {
     background-color: #d9dcd6;
@@ -19,6 +20,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
+/* I don't understand why only the seo has its own .header designation*/
 
 .header h1 .seo {
     color: #d9dcd6;
@@ -58,6 +60,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 
 .float-left {
     float: left;
